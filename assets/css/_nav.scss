@@ -1,0 +1,28 @@
+#top-nav{
+
+		.top-links{
+		
+		a{
+			background:#eee;
+			text-align:center;
+			display:block;
+			padding:.6rem 0;
+			margin: 1rem auto;
+		}
+	}
+
+	.hide-for-small{
+		text-align:right;
+	}
+
+	.show-for-small{
+		text-align:center;
+		margin:1rem auto;
+	}
+
+	img{
+		margin:1rem auto;
+		display:block;
+	}
+
+}

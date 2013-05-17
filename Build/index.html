@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nantucket Lighthouse School</title>
+
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+<link rel='stylesheet' href='assets/css/vendor/normalize.css'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+
+  <script src='assets/js/vendor/custom.modernizr.js'></script>
+
+</head>
+<body>
+
+<div id="top-nav" class="row">
+	<div class="large-8 push-4 columns">
+		<div class="row top-links">
+			<div class="small-4 columns">
+			<a href="#">Apply</a>
+			</div>
+			<div class="small-4 columns">
+			<a href="#">Donate</a>
+			</div>
+			<div class="small-4 columns">
+			<a href="#">Calendar</a>
+			</div>			
+		</div>
+		<div class="row hide-for-small">
+			<div class="large-12 columns">
+				555-555-5555 &bull; info@nantucketlighthouseschool.org
+			</div>
+		</div>
+	</div>
+	<div class="large-4 columns pull-8">
+		<img src="http://placehold.it/300x100&text=logo"/>
+		<div class="show-for-small">
+			555-555-5555 &bull; info@nantucketlighthouseschool.org
+		</div>
+	</div>	
+</div>
+
+<div class="row">
+
+<nav class="top-bar">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1><a href="#"></a></h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li class="divider"></li>
+      <li class="has-dropdown"><a href="#">About Us</a>
+        <ul class="dropdown">
+          <li><a href="#">Philosophy/Mission</a></li>
+          <li class="divider"></li>          
+          <li><a href="#">Faculty &amp; Staff</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Trustees</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Parents</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Alumni</a></li>
+          <li class="divider"></li>                    
+          <li><a href="#">Strategic Plan</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Careers</a></li>
+          <li class="divider"></li>
+        </ul>
+      </li>
+      <li class="divider"></li>
+
+      <li class="has-dropdown"><a href="#">Admissions</a>
+        <ul class="dropdown">
+          <li><a href="#">Application Process</a></li>
+          <li class="divider"></li>          
+          <li><a href="#">Open House Schedule</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Tuition Schedule</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Financial Aid</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Extended Day Program</a></li>
+          <li class="divider"></li>                    
+          <li><a href="#">Forms</a></li>
+          <li class="divider"></li>
+        </ul>
+      </li>
+      <li class="divider"></li>
+    
+      <li class="has-dropdown"><a href="#">Curriculum</a>
+        <ul class="dropdown">
+          <li><a href="#">Philosophy</a></li>
+          <li class="divider"></li>          
+          <li><a href="#">Small School</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Primary</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Upper Primary</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Middle School</a></li>
+          <li class="divider"></li>                    
+          <li><a href="#">Extended Program</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Resources</a></li>
+          <li class="divider"></li>
+        </ul>
+      </li>
+      <li class="divider"></li>
+      <li class="has-dropdown"><a href="#">Events</a>
+        <ul class="dropdown">
+          <li><a href="#">Parent Events</a></li>
+          <li class="divider"></li>          
+          <li><a href="#">Event 1</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Event 2</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Event 3</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Event 4</a></li>
+          <li class="divider"></li>                    
+          <li><a href="#">Event 5</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Event 6</a></li>
+          <li class="divider"></li>
+        </ul>
+      </li>
+      <li class="divider"></li>      
+      <li class="has-dropdown"><a href="#">News</a>
+        <ul class="dropdown">
+          <li><a href="#">Post</a></li>
+          <li class="divider"></li>          
+          <li><a href="#">Post</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Post</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Post</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Post</a></li>
+          <li class="divider"></li>                    
+          <li><a href="#">Post</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Post</a></li>
+          <li class="divider"></li>
+        </ul>
+      </li>
+      <li class="divider"></li>
+      <li class="has-dropdown"><a href="#">Support Us</a>
+        <ul class="dropdown">
+          <li><a href="#">Shop</a></li>
+          <li class="divider"></li>          
+          <li><a href="#">Donors</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Donate</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Capital Campaign</a></li>
+          <li class="divider"></li>
+        </ul>
+      </li>      
+      <li class="divider"></li>
+      <li><a href="#">Contact</a></li>
+      <li class="divider"></li>      
+    </ul>
+
+
+  </section>
+</nav>
+</div>
+
+<div class="row">
+	<div class="large-12 columns">	
+		<ul data-orbit data-options="bullets:false;">
+		  <li>
+		    <img src="http://placehold.it/1000x600&text=Slide1" />
+		  </li>
+		  <li>
+		    <img src="http://placehold.it/1000x600&text=Slide2" />
+		  </li>
+		  <li>
+		    <img src="http://placehold.it/1000x600&text=Slide3" />
+		  </li>  
+		</ul>
+	</div>
+</div>
+
+<div class="row">
+	<div class="large-12 columns">
+		<h2>Headline Goes Here</h2>
+		<p class="lead">Nullam id dolor id nibh ultricies vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.
+		</p>
+
+
+		
+	</div>
+</div>
+<div id="home-boxes" class="row">
+	<div class="large-8 columns">
+		<div class="section-container tabs" data-section="tabs">
+			<section>
+		    	<p class="title" data-section-title><a href="#">News</a></p>
+		    	<div class="content" data-section-content>
+					<p><a href="#">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. </a></p>
+					<p><a href="#">Tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus</a></p>
+					<p><a class="button secondary" href="#">See All &raquo;</a></p>
+		    	</div>
+		  	</section>
+ 			
+			<section>
+		    	<p class="title" data-section-title><a href="#">Events</a></p>
+		    	<div class="content" data-section-content>
+					<p><b>July 4, 2013</b></p>
+					<p><a href="#">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</a></p>
+					<p><a class="button secondary" href="#">See All &raquo;</a></p>
+		    	</div>
+		  	</section>
+		</div>						
+	</div>
+
+	<div id="facebook" class="large-4 columns">
+		<h5>Facebook</h5>
+		<p><a href="#">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. </a>
+		</p>
+		<p><a href="#">Tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus</a>
+		</p>
+		<p><a href="#">Condimentum nibh, ut fermentum massa justo sit amet risus.</a>
+		</p>
+							
+	</div>	
+</div>
+
+
+<div id="footer">
+	<div class="row">
+		<div class="large-2 columns">
+			<h5>About Us</h5>
+			<ul>
+	        	<li><a href="#">Philosophy/Mission</a></li>
+	        	<li><a href="#">Faculty &amp; Staff</a></li>
+	        	<li><a href="#">Trustees</a></li>
+	        	<li><a href="#">Parents</a></li>
+	        	<li><a href="#">Alumni</a></li>
+	        	<li><a href="#">Strategic Plan</a></li>
+	        	<li><a href="#">Careers</a></li>
+       		</ul>
+		</div>
+
+		<div class="large-2 columns">
+			<h5>Admissions</h5>
+			<ul>
+				<li><a href="#">Application Process</a></li>
+          		<li><a href="#">Open House Schedule</a></li>
+          		<li><a href="#">Tuition Schedule</a></li>
+          		<li><a href="#">Financial Aid</a></li>
+          		<li><a href="#">Extended Day Program</a></li>
+          		<li><a href="#">Forms</a></li>
+       		</ul>
+		</div>
+
+		<div class="large-2 columns">
+			<h5>Curriculum</h5>
+			<ul>
+          		<li><a href="#">Philosophy</a></li>
+          		<li><a href="#">Small School</a></li>
+          		<li><a href="#">Primary</a></li>
+          		<li><a href="#">Upper Primary</a></li>
+          		<li><a href="#">Middle School</a></li>
+          		<li><a href="#">Extended Program</a></li>
+          		<li><a href="#">Resources</a></li>
+       		</ul>
+		</div>
+
+		<div class="large-2 columns">
+			<h5>Events</h5>
+			<ul>
+				<li><a href="#">Parent Events</a></li>
+          		<li><a href="#">Event 1</a></li>
+          		<li><a href="#">Event 2</a></li>
+          		<li><a href="#">Event 3</a></li>
+          		<li><a href="#">Event 4</a></li>
+          		<li><a href="#">Event 5</a></li>
+          		<li><a href="#">Event 6</a></li>
+       		</ul>
+		</div>
+
+		<div class="large-2 columns">
+			<h5>News</h5>
+			<ul>
+				<li><a href="#">Post</a></li>
+          		<li><a href="#">Post</a></li>
+          		<li><a href="#">Post</a></li>
+          		<li><a href="#">Post</a></li>
+          		<li><a href="#">Post</a></li>
+          		<li><a href="#">Post</a></li>
+          		<li><a href="#">Post</a></li>
+       		</ul>
+		</div>
+
+		<div class="large-2 columns">
+			<h5>Support</h5>
+			<ul>
+          		<li><a href="#">Shop</a></li>
+          		<li><a href="#">Donors</a></li>
+          		<li><a href="#">Donate</a></li>
+          		<li><a href="#">Capital Campaign</a></li>
+       		</ul>
+		</div>		
+
+	</div>
+
+	<div id="credits">
+		<div class="row">
+			<p class="large-12 columns">
+				&copy; Nantucket Lighthouse School <img src="assets/img/20logo.png" id="footer-logo" />
+			</p>
+		</div>
+	</div>
+
+</div>
+    <script src='assets/js/vendor/jquery.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.alerts.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.clearing.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.cookie.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.dropdown.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.forms.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.joyride.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.magellan.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.orbit.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.placeholder.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.reveal.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.section.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.tooltips.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.topbar.js'></script>
+	<script src='assets/js/script.js'></script>
+</body>
+</html>

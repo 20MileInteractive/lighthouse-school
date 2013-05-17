@@ -1,4 +1,4 @@
-lighthouse-school
-=================
+project-starter-template
+========================
 
-Lighthouse School
+Template for web projects with Hammer and Foundation4
