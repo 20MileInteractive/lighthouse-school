@@ -3881,7 +3881,14 @@ footer p {
 #footer {
   background: #eee;
   margin: 1rem auto 0;
-  padding: 1.5rem 0 3rem; }
+  padding: 1.5rem 0 0; }
+  #footer ul {
+    list-style-type: none; }
+    #footer ul li {
+      border-bottom: 1px solid #ddd; }
+      #footer ul li a {
+        display: block;
+        padding: .5rem 0; }
 
 #credits {
   background: #333;
@@ -3895,3 +3902,7 @@ footer p {
 
 #home-boxes {
   margin: 2rem auto; }
+
+#news-excerpt {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd; }

@@ -1,7 +1,22 @@
 #footer{
 	background:#eee;
 	margin:1rem auto 0;
-	padding:1.5rem 0 3rem;
+	padding:1.5rem 0 0;
+
+	ul{
+		list-style-type:none;
+
+		li{
+			border-bottom:1px solid #ddd;
+		
+			a{
+				display:block;
+				padding:.5rem 0;
+			}
+		}
+	}
+
+
 }
 
 #credits{
@@ -11,5 +26,5 @@
 	
 	img#footer-logo{
 		float:right;
-	}
+	}	
 }
