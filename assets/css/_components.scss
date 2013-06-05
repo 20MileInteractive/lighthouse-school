@@ -1,0 +1,22 @@
+
+.video-component{
+	background:rgba(0,0,0,.02);
+	border:1px solid #ddd;
+	padding:1em 0;
+	margin: 2em auto !important;
+
+	p{
+		margin-bottom:0;
+
+		img{
+			display:block;
+			margin:0 auto;
+		}
+	}
+
+}
+
+.panel.cta{
+	text-align:center;
+	margin-top:2em;
+}

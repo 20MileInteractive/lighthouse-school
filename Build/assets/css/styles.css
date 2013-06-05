@@ -3765,6 +3765,21 @@ table {
   .f-dropdown.large {
     max-width: 800px; }
 
+.video-component {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid #ddd;
+  padding: 1em 0;
+  margin: 2em auto !important; }
+  .video-component p {
+    margin-bottom: 0; }
+    .video-component p img {
+      display: block;
+      margin: 0 auto; }
+
+.panel.cta {
+  text-align: center;
+  margin-top: 2em; }
+
 .style-guide section {
   padding: 1em 0; }
 
@@ -3862,6 +3877,11 @@ footer p {
   font-size: 0.6875em;
   text-align: center;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+#flag {
+  background: red;
+  display: block;
+  height: 10px; }
 
 #top-nav .top-links a {
   background: #eee;
