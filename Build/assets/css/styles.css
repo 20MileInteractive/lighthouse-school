@@ -3889,6 +3889,8 @@ footer p {
   display: block;
   padding: .6rem 0;
   margin: 1rem auto; }
+#top-nav .top-links a#donate-button {
+  background: #fff; }
 #top-nav .hide-for-small {
   text-align: right; }
 #top-nav .show-for-small {
@@ -3926,3 +3928,16 @@ footer p {
 #news-excerpt {
   margin-bottom: 2rem;
   border-bottom: 1px solid #ddd; }
+
+.reveal-section {
+  background: #eee;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 2rem; }
+  .reveal-section p.hide a {
+    margin-right: 1em; }
+  .reveal-section a.reveal-section-link {
+    display: block;
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem; }
