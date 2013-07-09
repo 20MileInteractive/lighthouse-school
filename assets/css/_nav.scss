@@ -20,13 +20,32 @@
 		
 		a{
 			text-align:center;
-			display:block;
-			padding:.6rem 0;
-			margin: 1rem auto;
+			display:inline-block;
+			margin: 0;
 		}
 
-		a#donate-button{
-			background:#fff;
+		a#calendar{
+			background:#7bc1d4 url(../img/calendar_icon.png) no-repeat center 4px;
+			padding: 25px 0 6px 0;/* calendar: */
+			font-family: AvenirNext-DemiBold;
+			font-size: 14px;
+			color: #FFFFFF;
+			line-height: 19px;
+			text-transform: lowercase;
+			width: 86px;
+
+		}
+
+		a#apply{
+			background:#68b7cf url(../img/apply_icon.png) no-repeat center 4px;
+			padding: 25px 0 6px 0;/* calendar: */
+			font-family: AvenirNext-DemiBold;
+			font-size: 14px;
+			color: #FFFFFF;
+			line-height: 19px;
+			text-transform: lowercase;
+			width: 86px;
+
 		}
 	}
 
@@ -44,4 +63,16 @@
 		display:block;
 	}
 
+}
+@media #{$topbar-media-query} {
+	.top-bar-section .divider {
+		display: none;
+	}
+	.top-bar-section .has-dropdown > a {
+		padding-right: 30px !important;
+		padding-left: 5px;
+	}
+	.top-bar-section li a:not(.button) {
+		padding: 0 10px;
+	}
 }
