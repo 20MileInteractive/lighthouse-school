@@ -3883,22 +3883,31 @@ footer p {
   display: block;
   height: 15px; }
 
-#top-nav .top-links a {
-  background: #eee;
-  text-align: center;
-  display: block;
-  padding: .6rem 0;
-  margin: 1rem auto; }
-#top-nav .top-links a#donate-button {
-  background: #fff; }
-#top-nav .hide-for-small {
-  text-align: right; }
-#top-nav .show-for-small {
-  text-align: center;
-  margin: 1rem auto; }
-#top-nav img {
-  margin: 1rem auto;
-  display: block; }
+.top-bar {
+  background: none; }
+  .top-bar section ul, .top-bar section ul a {
+    background: none !important;
+    color: #115467; }
+    .top-bar section ul ul, .top-bar section ul a ul {
+      background: #9CB9C2 !important; }
+
+#top-nav {
+  background: none; }
+  #top-nav .top-links a {
+    text-align: center;
+    display: block;
+    padding: .6rem 0;
+    margin: 1rem auto; }
+  #top-nav .top-links a#donate-button {
+    background: #fff; }
+  #top-nav .hide-for-small {
+    text-align: right; }
+  #top-nav .show-for-small {
+    text-align: center;
+    margin: 1rem auto; }
+  #top-nav img {
+    margin: 10px;
+    display: block; }
 
 #footer {
   background: #eee;
@@ -3941,3 +3950,6 @@ footer p {
     margin-top: 2rem;
     border-top: 1px solid #ddd;
     padding-top: 1rem; }
+
+body {
+  background: url(../img/nav-bg.png) no-repeat center -3px; }

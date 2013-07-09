@@ -4,13 +4,21 @@
 	height:15px;
 }
 
-
+.top-bar {
+	background: none;
+	section ul, section ul a {
+		background: none !important;
+		color: #115467;
+		ul {
+			background: #9CB9C2 !important;
+		}
+	}
+}
 #top-nav{
-
+	background: none;
 		.top-links{
 		
 		a{
-			background:#eee;
 			text-align:center;
 			display:block;
 			padding:.6rem 0;
@@ -32,7 +40,7 @@
 	}
 
 	img{
-		margin:1rem auto;
+		margin:10px;
 		display:block;
 	}
 
