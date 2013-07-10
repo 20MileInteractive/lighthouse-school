@@ -3893,7 +3893,7 @@ footer p {
     padding-left: 25px;
     width: auto;
     float: right;
-    margin: 0 0.9375em 21px 0; }
+    margin: 0 0 21px 0; }
     #top-nav .top-links a {
       text-align: center;
       display: inline-block;
@@ -4015,3 +4015,13 @@ footer p {
 
 body {
   background: url(../img/nav-bg.png) no-repeat center -10px; }
+
+.full-orbit img {
+  width: 100%;
+  height: auto; }
+
+@media only screen and (min-width: 740px) {
+  .lead {
+    background: url(../img/yarn.jpg) no-repeat right -60px;
+    padding-right: 400px;
+    min-height: 250px; } }
