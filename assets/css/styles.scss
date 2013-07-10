@@ -38,8 +38,30 @@ body {
 	width: 100%;
 	height: auto;
 }
+.button, .button.secondary {
+	background-color: #F6AD00;
+	-webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    text-transform: lowercase;
+}
+.button:hover {
+	background-color: #EBA500;
+}
+.button.secondary:hover {
+	background-color: #fff;
+}
+#home-bottom-leader {
+	background: url(../img/home-bottom-bg.png) center top repeat-x #F7F6E7;
+	height: 30px;
+}
+#home-bottom {
+	background: url(../img/butterflies.jpg) no-repeat left bottom #f7f6e7;
+	padding-bottom: 40px;
+}
 @media only screen and (min-width: 740px) {
-.lead {
+.home-lead {
 	background: url(../img/yarn.jpg) no-repeat right -60px;
 	padding-right: 400px;
 	min-height: 250px;

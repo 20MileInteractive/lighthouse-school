@@ -211,7 +211,7 @@
       } else {
         titles.each(function () {
           $(this).css('left', previous_width);
-          previous_width += self.outerWidth($(this));
+          previous_width += self.outerWidth($(this))+10;
         });
       }
     },

@@ -1,7 +1,25 @@
 #facebook{
-	background:#eee;
+	margin-top: 43px;
 }
-
-#home-boxes{
-	margin:2rem auto;
+.section-container section .content, .section-container .section .content {
+	background-color: #EEECD9;
+}
+.section-container.tabs section .content, .section-container.tabs .section .content {
+	border: none;
+	-webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+.section-container.tabs section:last-child .title, .section-container.tabs .section:last-child .title {
+	border:none;
+}
+.section-container.tabs section .title, .section-container.tabs .section .title {
+	border: none;
+	-webkit-border-radius: 6px 6px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
+    margin: 0 20px;
+    width: 200px;
+    text-align: center;
+}
+.section-container.tabs section.active .title, .section-container.tabs .section.active .title {
+	background-color: #EEECD9;
 }
