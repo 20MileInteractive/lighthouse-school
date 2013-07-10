@@ -23,3 +23,23 @@
 .section-container.tabs section.active .title, .section-container.tabs .section.active .title {
 	background-color: #EEECD9;
 }
+.news_events {
+	list-style: none;
+	li {
+		border-bottom: solid 1px #fff;
+		padding: 10px 0;
+		margin: 5px;
+		a {
+			color: #499988;
+		}
+		&:first-child a {
+			color: #D63C2E;
+		}
+		&:last-child {
+			border: none;
+			a {
+				color: #52504B;
+			}
+		}
+	}
+}
