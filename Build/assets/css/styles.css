@@ -3978,7 +3978,10 @@ footer p {
     padding-left: 5px; }
 
   .top-bar-section li a:not(.button) {
-    padding: 0 10px; } }
+    padding: 0 10px; }
+
+  .top-bar-section .dropdown li a {
+    padding: 7px 15px; } }
 #footer {
   background: url(../img/footer-bg.png) no-repeat center top #413e36;
   margin: 0;
@@ -4073,8 +4076,26 @@ body {
   background: url(../img/butterflies.jpg) no-repeat left bottom #f7f6e7;
   padding-bottom: 40px; }
 
+.reveal-section, .video-component, .panel {
+  background: #EEECD9; }
+
+.page_title {
+  font-size: 3.125em;
+  margin-top: 1em; }
+
+.main_content {
+  background-position: -1000px -1000px;
+  background-repeat: no-repeat; }
+
 @media only screen and (min-width: 740px) {
   .home-lead {
     background: url(../img/yarn.jpg) no-repeat right -60px;
     padding-right: 400px;
     min-height: 250px; } }
+@media only screen and (min-width: 58.75em) {
+  .main_content {
+    padding: 0 250px 0 160px;
+    background-position: right 100px; }
+    .main_content .page_title, .main_content section {
+      margin-left: -80px;
+      margin-right: -140px; } }
