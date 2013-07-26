@@ -6,6 +6,8 @@
 	h5 {
 		font-size: 24px;
 		color: #F8F6E8;
+		font-weight: normal;
+		margin-bottom: .25em;
 	}
 
 	ul{
@@ -15,11 +17,15 @@
 
 			font-size: 16px;
 			line-height: 24px;
+			font-family: $sans-serif-font;
 		
 			a{
 				color: #B7B19F;
 				display:block;
+				font-weight: 300;
+				font-size: emCalc(15px);
 			}
+			a:hover {color: $primary-color;}
 		}
 	}
 

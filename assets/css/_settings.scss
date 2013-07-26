@@ -15,8 +15,8 @@
 
 // We use these to control various global styles
 // $body-bg: #fff;
-// $body-font-color: #222;
-   $body-font-family: "MrsEavesRomanLiningRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+   $body-font-color: #413e37;
+   $body-font-family: "MrsEavesRomanLiningRegular", Georgia, serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -27,13 +27,13 @@
 // $text-direction: ltr;
 
 // We use these as default colors throughout
-// $primary-color: #2ba6cb;
+   $primary-color: #EBA500;
 // $secondary-color: #e9e9e9;
 // $alert-color: #c60f13;
 // $success-color: #5da423;
 
 // We use these to make sure border radius matches unless we want it different.
-// $global-radius: 3px;
+ $global-radius: 6px;
 // $global-rounded: 1000px;
 
 // We use these to control inset shadow shiny edges and depressions.
@@ -234,19 +234,19 @@
 // $button-font-tny: emCalc(11px);
 // $button-font-sml: emCalc(13px);
 // $button-font-lrg: emCalc(20px);
-// $button-font-weight: bold;
+   $button-font-weight: 300;
 // $button-font-align: center;
 
 // We use these to control various hover effects.
-// $button-function-factor: 10%;
+   $button-function-factor: 5%;
 
 // We use these to control button border styles.
-// $button-border-width: 1px;
-// $button-border-style: solid;
+  $button-border-width: 0;
+  $button-border-style: none;
 // $button-border-color: darken($primary-color, $button-function-factor);
 
 // We use this to set the default radius used throughout the core.
-// $button-radius: $global-radius;
+   $button-radius: 6px;
 
 // We use this to set default opacity for disabled buttons.
 // $button-disabled-opacity: 0.6;
@@ -770,12 +770,12 @@
 //
 
 // We use these to set padding and hover factor
-// $section-padding: emCalc(15px);
+   $section-padding: 1em;
 // $section-function-factor: 10%;
 
 // These style the titles
-// $section-title-color: #333;
-// $section-title-bg: #efefef;
+  $section-title-color: #52504B;
+   $section-title-bg: #B7B19F;
 // $section-title-bg-active: darken($section-title-bg, $section-function-factor);
 // $section-title-bg-active-tabs: #fff;
 
@@ -945,7 +945,8 @@
 //
 
 // Background color for the top bar
-  $topbar-bg: #4DADC8;
+  $topbar-bg: #ADD5E0;
+//   $topbar-bg: #4DADC8;
 
 // Height and margin
 // $topbar-height: 45px;
