@@ -1,3 +1,22 @@
+.home-slide {
+	border-bottom: 3px solid #F0582A;
+	margin-bottom: 4em;
+}
+
+.home-lead h2 {
+	font-size: emCalc(50px);
+	line-height: 1em;
+}
+
+#home-bottom-leader {
+	background: url(../img/home-bottom-bg.png) center top repeat-x #F7F6E7;
+	height: 30px;
+}
+#home-bottom {
+	background: url(../img/butterflies.jpg) no-repeat left bottom #f7f6e7;
+	padding-bottom: 40px;
+}
+
 #facebook{
 	margin-top: 43px;
 }
@@ -42,4 +61,12 @@
 			}
 		}
 	}
+}
+
+@media only screen and (min-width: 740px) {
+.home-lead p.lead {
+	background: url(../img/yarn.jpg) no-repeat right -60px;
+	padding-right: 400px;
+	min-height: 250px;
+}
 }

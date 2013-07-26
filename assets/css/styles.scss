@@ -1,3 +1,6 @@
+// Web fonts
+@import "_mrs-eaves";
+
 // Global Foundation settings and variables
 @import "settings";
 
@@ -31,9 +34,6 @@
 // Faculty and Trustees Pages
 @import "bios";
 
-body {
-	background: url(../img/nav-bg.png) no-repeat center -10px;
-}
 .full-orbit img {
 	width: 100%;
 	height: auto;
@@ -52,14 +52,7 @@ body {
 .button.secondary:hover {
 	background-color: #fff;
 }
-#home-bottom-leader {
-	background: url(../img/home-bottom-bg.png) center top repeat-x #F7F6E7;
-	height: 30px;
-}
-#home-bottom {
-	background: url(../img/butterflies.jpg) no-repeat left bottom #f7f6e7;
-	padding-bottom: 40px;
-}
+
 .reveal-section, .video-component, .panel {
 	background: #EEECD9;
 }
@@ -71,13 +64,7 @@ body {
 	background-position: -1000px -1000px;
 	background-repeat: no-repeat;
 }
-@media only screen and (min-width: 740px) {
-.home-lead {
-	background: url(../img/yarn.jpg) no-repeat right -60px;
-	padding-right: 400px;
-	min-height: 250px;
-}
-}
+
 @media #{$topbar-media-query} {
 .main_content {
 	padding: 0 250px 0 160px;

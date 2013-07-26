@@ -3,110 +3,95 @@
 	display:block;
 	height:15px;
 }
-.top-logo {
-	padding: 0 !important;
+
+header {
+	background: url(bg-blue-paper.png);
+	border-bottom: 6px solid #9CB9C2;
 }
-#top-nav{
-	background: none;
-		.top-links{
-			background: #afd5df;
-			color: #257085;
-			font-size: 0.875em;
-			padding-left: 25px;
-			width: auto;
-			float: right;
-			margin: 0 0 21px 0;
-		a{
-			text-align:center;
-			display:inline-block;
-			margin: 0;
-		}
-		#info_nav {
-			padding-top: 25px;
-			float: left;
-		}
-		#info_nav2 {
-			width: 197px;
-			float: left;
-		}
-		a#email {
-			color: #257085;
-			padding: 0 10px;
-		}
 
-		a#calendar{
-			background:#7bc1d4 url(../img/calendar_icon.png) no-repeat center 4px;
-			padding: 25px 0 6px 0;/* calendar: */
-			font-family: AvenirNext-DemiBold;
-			color: #FFFFFF;
-			line-height: 19px;
-			text-transform: lowercase;
-			width: 86px;
-			float: left;
+.lighthouse-school-logo {
+	// padding: 0 !important;
+	display: block;
+	margin: 4px auto 0;
+	width: 248px;
+}
 
-		}
+#top-links {
 
-		a#apply{
-			background:#68b7cf url(../img/apply_icon.png) no-repeat center 4px;
-			padding: 25px 0 6px 0;/* calendar: */
-			font-family: AvenirNext-DemiBold;
-			color: #FFFFFF;
-			line-height: 19px;
-			text-transform: lowercase;
-			width: 86px;
-			float: left;
-		}
-		#social {
-			width: 25px;
-			height: 50px;
-			float: right;
-		}
-		a#twitter {
-			height: 25px;
-			width: 25px;
-			background: url(../img/twitter.png) no-repeat center center #4dadc9;
-			display: block;
-			span {
-				display: none;
-			}
-		}
-		a#facebook {
-			height: 25px;
-			width: 25px;
-			background: url(../img/facebook.png) no-repeat center center #3493af;
-			display: block;
-			span {
-				display: none;
-			}
-		}
+	float: right;
+
+	li {
+		font-family: "Muli", sans-serif;
+		letter-spacing: 1px;
+		font-weight: 400;
+		font-size: emCalc(14px);
+		line-height: 19px;
+		text-transform: lowercase;
+		color: #fff;
+		height: 25px;
+		background: #ADD5E0;
+		margin: 0;
+		text-align: center;
+		transition: background 300ms;
+		a {color: #fff;transition: background 300ms, color 300ms;}
 	}
 
-	.hide-for-small{
-		text-align:right;
+	li#nav-contact {
+		width: 380px;
+		padding-top: 3px;
+		letter-spacing: 0;
+		a {display: inline; }
+		a:hover {color: #fff;}
+	}
+	li#calendar-link {display: none; background: #7BC0D3; width: 86px; padding-top: 6px;}
+		li#calendar-link:hover {background: darken(#7BC0D3, 10%);}
+	li#apply-link {display: none; background: #68B8CF; width: 86px; padding-top: 6px;}
+		li#apply-link:hover {background: darken(#68B8CF, 10%);}
+	li#social-links {
+		width: 50px;
+		a {display: block; height: 25px; text-align: center; width: 25px; float: left;}
 	}
 
-	.show-for-small{
-		text-align:center;
-		margin:1rem auto;
-	}
-
-	img{
-		margin:10px;
-		display:block;
-	}
+	#twitter-link {background: #4DADC8; padding-top: 6px;}
+		#twitter-link:hover {background: darken(#4DADC8,10%);}
+	#facebook-link {background: #3393AF; padding-top: 4px;}
+		#facebook-link:hover {background: darken(#3393AF, 10%);}
 
 }
-@media #{$topbar-media-query} {
 
-	.top-bar {
+
+nav.top-bar { //these are default styles
+
+	margin-top: 2em;
+	margin-bottom: 0;
+	font-family: "Muli", sans-serif;
+	font-weight: 300;
+	background: #4DADC8;
+
+	a {
+		font-family: "Muli", sans-serif;
+		transition: color 300ms;
+	}
+}
+
+@media #{$topbar-media-query} { //this is when the top-bar expands
+
+
+	nav.top-bar {
 		background: none;
 		margin-bottom: 0;
+		float: right;
+		margin-top: -29px;
 		section ul, section ul a {
 			background: none !important;
 			color: #115467;
 			ul {
-				background: #9CB9C2 !important;
+				background: #fff !important;
 			}
+		}
+
+		section ul, section ul a:hover {
+			color: #fff;
 		}
 	}
 	.top-bar-section .has-dropdown > a:after {
@@ -121,9 +106,53 @@
 		padding-left: 5px;
 	}
 	.top-bar-section li a:not(.button) {
-		padding: 0 10px;
+		padding: 0 6px;
 	}
+
+	.top-bar-section .dropdown {
+		padding: .5em;
+		-moz-box-shadow:    0px 4px 4px 0px rgba(0,0,0,0.20);
+		-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.20);
+		box-shadow:         0px 4px 4px 0px rgba(0,0,0,0.20);
+		transition: background 300ms;
+	}
+
+	.top-bar-section .dropdown li {
+		border-bottom: 1px solid #E0E0E0;
+	}
+
+	.top-bar-section .dropdown li:last-child {border-bottom: 0px;}
+
 	.top-bar-section .dropdown li a {
 		padding: 7px 15px;
+		line-height: 1.4em;
 	}
+
+	.top-bar-section .dropdown li a:hover {color: lighten(#34796B,20%);}
+}
+
+@media only screen and (min-width: 30em){
+		.lighthouse-school-logo {margin: .5em 0;}
+		#top-links li#nav-contact {padding: 24px;}
+		#top-links li {height: 50px; }
+		#top-links li#social-links {width: 25px;}
+}
+
+@media only screen and (min-width: 50em){
+
+
+
+#top-links {
+	li#calendar-link {display: inline-block;}
+	li#apply-link {display: inline-block;}
+}
+
+
+}
+
+@media only screen and (min-width: 60em){
+	nav.top-bar {
+	width: 730px;
+	}
+	
 }

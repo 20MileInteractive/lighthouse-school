@@ -16,7 +16,7 @@
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+   $body-font-family: "MrsEavesRomanLiningRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -69,10 +69,10 @@
 //
 
 // We use these to control header font styles
-// $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $header-font-weight: bold;
+   $header-font-family: "MrsEavesRomanLiningRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+   $header-font-weight: normal;
 // $header-font-style: normal;
-// $header-font-color: #222;
+  $header-font-color: #413E37;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
@@ -945,7 +945,7 @@
 //
 
 // Background color for the top bar
-// $topbar-bg: #111;
+  $topbar-bg: #4DADC8;
 
 // Height and margin
 // $topbar-height: 45px;
@@ -955,30 +955,30 @@
 // $topbar-input-height: 2.45em;
 
 // Controlling the styles for the title in the top bar
-// $topbar-title-weight: bold;
+ $topbar-title-weight: normal;
 // $topbar-title-font-size: emCalc(17px);
 
 // Set the link colors and styles for top-level nav
-// $topbar-link-color: #fff;
-// $topbar-link-weight: bold;
-// $topbar-link-font-size: emCalc(13px);
+  $topbar-link-color: #115467;
+ $topbar-link-weight: normal;
+   $topbar-link-font-size: 15px;
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: #333;
-// $topbar-dropdown-link-color: #fff;
-// $topbar-dropdown-toggle-size: 5px;
-// $topbar-dropdown-toggle-color: #fff;
-// $topbar-dropdown-toggle-alpha: 0.5;
-// $dropdown-label-color: #555;
+ $topbar-dropdown-bg: #fff;
+   $topbar-dropdown-link-color: #34796B;
+   $topbar-dropdown-toggle-size: 5px;
+   $topbar-dropdown-toggle-color: #9DC9D6;
+ $topbar-dropdown-toggle-alpha: 1;
+   $dropdown-label-color: #34796B;
 
 // Top menu icon styles
-// $topbar-menu-link-transform: uppercase;
+   $topbar-menu-link-transform: lowercase;
 // $topbar-menu-link-font-size: emCalc(13px);
-// $topbar-menu-link-weight: bold;
+   $topbar-menu-link-weight: normal;
 // $topbar-menu-link-color: #fff;
 // $topbar-menu-icon-color: #fff;
-// $topbar-menu-link-color-toggled: #888;
-// $topbar-menu-icon-color-toggled: #888;
+   $topbar-menu-link-color-toggled: #fff;
+   $topbar-menu-icon-color-toggled: #fff;
 
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;
