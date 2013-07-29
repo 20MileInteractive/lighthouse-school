@@ -3,20 +3,29 @@
 	background:rgba(0,0,0,.02);
 	border:1px solid #ddd;
 	padding:1em 0;
-	margin: 2em auto !important;
+	margin-bottom: 1.5em;
+	// margin: 2em auto !important;
 
-	p{
-		margin-bottom:0;
+	// p{
+	// 	margin-bottom:0;
 
-		img{
-			display:block;
-			margin:0 auto;
-		}
-	}
+	// 	img{
+	// 		display:block;
+	// 		margin:0 auto;
+	// 	}
+	// }
 
 }
 
-.panel.cta{
-	text-align:center;
+.cta{
 	margin-top:2em;
+	background: lighten($pale-blue, 10%) url(bg-blue-paper.png);
+
+
+	h2, h3, h4, h5 {color: $navy; margin-bottom: 0;}
+	p {color: lighten($navy, 10%);}
+
+	a {color: #fff; letter-spacing: 1px;}
+	a.button {background: #fff; color: $orange; margin-bottom: 0;}
+	a.button:hover {background: $navy; color: #fff;}
 }

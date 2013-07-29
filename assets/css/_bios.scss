@@ -1,6 +1,18 @@
+.bios h3 {font-family: $sans-serif-font; font-weight: 300; font-size: emCalc(18px); margin-bottom: .5em;}
+.bios p:last-child {margin-bottom: 0;}
+
+.bio-name-title {
+	color: $red-orange;
+	em {
+		font-style: normal;
+		color: lighten($body-font-color, 10%);
+		font-family: $sans-serif-font;
+		font-size: 14px;
+	} 
+}
 .reveal-section{
-	background:#eee;
-	border-radius:10px;
+	background:$light-tan;
+	border-radius:5px;
 	padding:1rem;
 	margin-bottom:2rem;
 
@@ -8,13 +20,6 @@
 		a{
 			margin-right:1em;
 		}
-	}
-
-	a.reveal-section-link{
-		display:block;
-		margin-top:2rem;
-		border-top:1px solid #ddd;
-		padding-top:1rem;
 	}
 
 }
