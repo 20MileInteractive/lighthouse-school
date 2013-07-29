@@ -71,16 +71,13 @@
 
 
 @media only screen and (min-width: 30em){
-		.home-lead h2 {
-			font-size: emCalc(48px);
-		}
 
 		.home-lead h2, .home-lead p {text-align: left;}
 
-		.home-slide {
-			margin-bottom: 3em;
+}
 
-		}
+@media only screen and (min-width: 50em) {
+	.home-lead h2 {font-size: emCalc(36px);}
 }
 
 

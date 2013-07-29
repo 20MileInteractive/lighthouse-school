@@ -4171,7 +4171,7 @@ nav.top-bar {
   background: #333;
   color: #eee;
   padding-top: 1rem; }
-  #credits img#footer-logo {
+  #credits #footer-logo {
     float: right; }
 
 .home-slide {
@@ -4229,14 +4229,11 @@ nav.top-bar {
   margin-top: 43px; }
 
 @media only screen and (min-width: 30em) {
-  .home-lead h2 {
-    font-size: 3em; }
-
   .home-lead h2, .home-lead p {
-    text-align: left; }
-
-  .home-slide {
-    margin-bottom: 3em; } }
+    text-align: left; } }
+@media only screen and (min-width: 50em) {
+  .home-lead h2 {
+    font-size: 2.25em; } }
 @media only screen and (min-width: 740px) {
   .home-lead p.lead {
     background: url(../img/yarn.jpg) no-repeat right -60px;

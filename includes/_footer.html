@@ -151,7 +151,15 @@
 	<div id="credits">
 		<div class="row">
 			<p class="large-12 columns">
-				&copy; Nantucket Lighthouse School <a href="<!-- @path contact.html -->">Contact Us</a><img src="<!-- @path 20logo.png -->" id="footer-logo" />
+				&copy;<SCRIPT>
+				<!--
+				var year=new Date();
+				year=year.getYear();
+				if (year<1900) year+=1900;
+				document.write(year);
+				//-->
+				</SCRIPT> Nantucket Lighthouse School <a href="<!-- @path contact.html -->">Contact Us</a>
+				<a href="http://www.20mile.in" target="_blank" id="footer-logo"><img src="http://www.20mile.in/20mile-label-dark.png" alt="Made by 20Mile.in"></a>
 			</p>
 		</div>
 	</div>
