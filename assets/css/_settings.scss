@@ -173,7 +173,7 @@
 
 // We use these to style the labels in different ways
 // $label-pointer: pointer;
-// $label-font-size: emCalc(14px);
+   $label-font-size: emCalc(21px);
 // $label-font-weight: 500;
 // $label-font-color: lighten(#000, 30%);
 // $label-bottom-margin: emCalc(3px);
@@ -191,7 +191,7 @@
 // We use these to style the fieldset border and spacing.
 // $fieldset-border-style: solid;
 // $fieldset-border-width: 1px;
-// $fieldset-border-color: #ddd;
+ $fieldset-border-color: #f7f6e7;
 // $fieldset-padding: emCalc(20px);
 // $fieldset-margin: emCalc(18px) 0;
 
@@ -775,14 +775,14 @@
 
 // These style the titles
   $section-title-color: #52504B;
-   $section-title-bg: #B7B19F;
+   $section-title-bg:  #f7f6e7;
 // $section-title-bg-active: darken($section-title-bg, $section-function-factor);
 // $section-title-bg-active-tabs: #fff;
 
 // Want to control border size, here ya go!
 // $section-border-size: 1px;
 // $section-border-style: solid;
-// $section-border-color: #ccc;
+   $section-border-color: lighten($primary-color, 10%);
 
 // Control the color of the background and some size options
 // $section-content-bg: #fff;

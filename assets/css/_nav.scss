@@ -43,7 +43,7 @@ header {
 		padding-top: 3px;
 		letter-spacing: 0;
 		a {display: inline; }
-		a:hover {color: #fff;}
+		a:hover {color: $navy;}
 	}
 	li#calendar-link {display: none; background: #7BC0D3; width: 86px; padding-top: 6px;}
 		li#calendar-link:hover {background: darken(#7BC0D3, 10%);}

@@ -22,7 +22,7 @@
 	background: lighten($pale-blue, 10%) url(bg-blue-paper.png);
 
 
-	h2, h3, h4, h5 {color: $navy; margin-bottom: 0;}
+	h2, h3, h4, h5 {color: $navy; margin-bottom: .5em; font-family: $sans-serif-font;}
 	p {color: lighten($navy, 10%);}
 
 	a {color: #fff; letter-spacing: 1px;}

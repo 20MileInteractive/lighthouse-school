@@ -1438,7 +1438,7 @@ form .row input.columns {
 
 /* Label Styles */
 label {
-  font-size: 0.875em;
+  font-size: emCalc(21px);
   color: #4d4d4d;
   cursor: pointer;
   display: block;
@@ -1464,9 +1464,9 @@ label {
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
-  font-size: 0.875em;
-  height: 2.3125em;
-  line-height: 2.3125em; }
+  font-size: emCalc(21px);
+  height: emCalc(21px)1.5em-0.0625em;
+  line-height: emCalc(21px)1.5em-0.0625em; }
 
 /* Adjust padding, alignment and radius if pre/post element is a button */
 .postfix.button {
@@ -1662,7 +1662,7 @@ textarea {
 
 /* We add basic fieldset styling */
 fieldset {
-  border: solid 1px #dddddd;
+  border: solid 1px #f7f6e7;
   padding: 1.25em;
   margin: 1.125em 0; }
   fieldset legend {
@@ -2130,11 +2130,11 @@ form.custom {
   width: 100%;
   display: block;
   margin-bottom: 1.25em;
-  border: 1px solid #cccccc;
+  border: 1px solid #fb9425;
   border-top: none; }
   .section-container section,
   .section-container .section {
-    border-top: 1px solid #cccccc;
+    border-top: 1px solid #fb9425;
     position: relative; }
     .section-container section .title,
     .section-container .section .title {
@@ -2142,7 +2142,7 @@ form.custom {
       cursor: pointer;
       width: 100%;
       margin: 0;
-      background-color: #b7b19f; }
+      background-color: #f7f6e7; }
       .section-container section .title a,
       .section-container .section .title a {
         padding: 1em;
@@ -2153,7 +2153,7 @@ form.custom {
         width: 100%; }
       .section-container section .title:hover,
       .section-container .section .title:hover {
-        background-color: #aca590; }
+        background-color: #f1efd4; }
     .section-container section .content,
     .section-container .section .content {
       display: none;
@@ -2173,7 +2173,7 @@ form.custom {
       display: block; }
     .section-container section.active .title,
     .section-container .section.active .title {
-      background: #a19982; }
+      background: #eae8c1; }
 
 .section-container.tabs {
   border: 0;
@@ -2186,7 +2186,7 @@ form.custom {
     .section-container.tabs section .title,
     .section-container.tabs .section .title {
       width: auto;
-      border: 1px solid #cccccc;
+      border: 1px solid #fb9425;
       border-right: 0;
       border-bottom: 0;
       position: absolute;
@@ -2196,10 +2196,10 @@ form.custom {
         width: 100%; }
     .section-container.tabs section:last-child .title,
     .section-container.tabs .section:last-child .title {
-      border-right: 1px solid #cccccc; }
+      border-right: 1px solid #fb9425; }
     .section-container.tabs section .content,
     .section-container.tabs .section .content {
-      border: 1px solid #cccccc;
+      border: 1px solid #fb9425;
       position: absolute;
       z-index: 10;
       top: -1px; }
@@ -2217,7 +2217,7 @@ form.custom {
     padding-top: 0 !important; }
 
   .section-container.vertical-nav {
-    border: 1px solid #cccccc;
+    border: 1px solid #fb9425;
     border-top: none; }
     .section-container.vertical-nav section,
     .section-container.vertical-nav .section {
@@ -2237,12 +2237,12 @@ form.custom {
         top: -1px;
         z-index: 999;
         min-width: 12.5em;
-        border: 1px solid #cccccc; }
+        border: 1px solid #fb9425; }
 
   .section-container.horizontal-nav {
     position: relative;
-    background: #b7b19f;
-    border: 1px solid #cccccc; }
+    background: #f7f6e7;
+    border: 1px solid #fb9425; }
     .section-container.horizontal-nav section,
     .section-container.horizontal-nav .section {
       padding-top: 0;
@@ -2251,7 +2251,7 @@ form.custom {
       .section-container.horizontal-nav section .title,
       .section-container.horizontal-nav .section .title {
         width: auto;
-        border: 1px solid #cccccc;
+        border: 1px solid #fb9425;
         border-left: 0;
         top: -1px;
         position: absolute;
@@ -2270,7 +2270,7 @@ form.custom {
         left: 0;
         top: -2px;
         min-width: 12.5em;
-        border: 1px solid #cccccc; } }
+        border: 1px solid #fb9425; } }
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
@@ -3785,6 +3785,9 @@ table {
   .f-dropdown.large {
     max-width: 800px; }
 
+a.current {
+  color: #ae793f; }
+
 ul, ol {
   margin-left: 1em; }
 
@@ -3831,7 +3834,8 @@ ul, ol {
 .section-container.tabs section:last-child .title, .section-container.tabs .section:last-child .title {
   border: none; }
 
-.section-container.tabs section .title, .section-container.tabs .section .title {
+.section-container.tabs section .title,
+.section-container.tabs .section .title {
   border: none;
   -webkit-border-radius: 6px 6px 0px 0px;
   border-radius: 6px 6px 0px 0px;
@@ -3850,6 +3854,18 @@ ul, ol {
 
 .section-container.tabs section.active .title, .section-container.tabs .section.active .title {
   background-color: #EEECD9; }
+
+.section-container section .title,
+.section-container .section .title {
+  font-size: 1.125em;
+  font-family: Muli, sans-serif;
+  text-transform: lowercase;
+  font-weight: 400; }
+
+.section-container section h4,
+.section-container .section h4 {
+  font-family: Muli, "Helvetica", Arial, sans-serif;
+  font-size: 1em; }
 
 .news_events {
   list-style: none; }
@@ -3889,7 +3905,8 @@ ul, ol {
   background: #d2e8ee url(../img/bg-blue-paper.png); }
   .cta h2, .cta h3, .cta h4, .cta h5 {
     color: #0e2d40;
-    margin-bottom: 0; }
+    margin-bottom: .5em;
+    font-family: Muli, "Helvetica", Arial, sans-serif; }
   .cta p {
     color: #174a6a; }
   .cta a {
@@ -4043,7 +4060,7 @@ header {
     #top-links li#nav-contact a {
       display: inline; }
     #top-links li#nav-contact a:hover {
-      color: #fff; }
+      color: #0e2d40; }
   #top-links li#calendar-link {
     display: none;
     background: #7BC0D3;
@@ -4248,7 +4265,7 @@ nav.top-bar {
     font-size: 2.25em; } }
 @media only screen and (min-width: 740px) {
   .home-lead p.lead {
-    background: url(../img/yarn.jpg) no-repeat right -60px;
+    background: url(../img/yarn1.jpg) no-repeat right -60px;
     padding-right: 400px;
     min-height: 250px; } }
 #news-excerpt {
