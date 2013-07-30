@@ -12,6 +12,7 @@
 
 	ul{
 		list-style-type:none;
+		margin-left: 0;
 
 		li{
 
@@ -20,12 +21,11 @@
 			font-family: $sans-serif-font;
 		
 			a{
-				color: #B7B19F;
 				display:block;
 				font-weight: 300;
 				font-size: emCalc(15px);
 			}
-			a:hover {color: $primary-color;}
+			
 		}
 	}
 
@@ -40,4 +40,11 @@
 	#footer-logo{
 		float:right;
 	}	
+}
+
+@media only screen and (min-width: 50em){
+	#footer ul li {
+		a {color: #B7B19F;}
+		a:hover {color: $primary-color;}
+	}
 }

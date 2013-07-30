@@ -3820,8 +3820,11 @@ ul, ol {
   .main_content p.lead {
     color: #41a8c6; }
     .main_content p.lead em {
-      color: #e97b04;
+      color: #0e2d40;
       font-style: normal; }
+  .main_content .photo-right {
+    float: right;
+    margin-right: -4em; }
 
 .section-container section .content, .section-container .section .content {
   background-color: #EEECD9; }
@@ -3836,6 +3839,7 @@ ul, ol {
 
 .section-container.tabs section .title,
 .section-container.tabs .section .title {
+  background: #e5e1c4;
   border: none;
   -webkit-border-radius: 6px 6px 0px 0px;
   border-radius: 6px 6px 0px 0px;
@@ -3873,6 +3877,9 @@ ul, ol {
     border-bottom: solid 1px #fff;
     padding: 10px 0;
     margin: 5px; }
+    .news_events li time {
+      font-family: Muli, "Helvetica", Arial, sans-serif;
+      color: #787366; }
     .news_events li a {
       color: #499988;
       font-size: 1.3125em;
@@ -4183,18 +4190,16 @@ nav.top-bar {
     font-weight: normal;
     margin-bottom: .25em; }
   #footer ul {
-    list-style-type: none; }
+    list-style-type: none;
+    margin-left: 0; }
     #footer ul li {
       font-size: 16px;
       line-height: 24px;
       font-family: Muli, "Helvetica", Arial, sans-serif; }
       #footer ul li a {
-        color: #B7B19F;
         display: block;
         font-weight: 300;
         font-size: 0.9375em; }
-      #footer ul li a:hover {
-        color: #e97b04; }
 
 #credits {
   background: #333;
@@ -4203,6 +4208,11 @@ nav.top-bar {
   #credits #footer-logo {
     float: right; }
 
+@media only screen and (min-width: 50em) {
+  #footer ul li a {
+    color: #B7B19F; }
+  #footer ul li a:hover {
+    color: #e97b04; } }
 .home-slide {
   border-bottom: 3px solid #F0582A;
   margin-bottom: 2em; }
@@ -4265,7 +4275,7 @@ nav.top-bar {
     font-size: 2.25em; } }
 @media only screen and (min-width: 740px) {
   .home-lead p.lead {
-    background: url(../img/yarn1.jpg) no-repeat right -60px;
+    background: url(../img/yarn2.jpg) no-repeat right -60px;
     padding-right: 400px;
     min-height: 250px; } }
 #news-excerpt {

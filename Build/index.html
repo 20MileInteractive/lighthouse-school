@@ -175,6 +175,9 @@
 
 
 
+<!-- @todo Need help making the carousel fade instead of slide -Tim -->
+<!-- @todo There's a breakpoint where the Lighthouse background isn't sitting on the bottom -Tim -->
+
 <div class="full-orbit home-slide carousel">
 	<div class="large-12 columns">	
 		<ul data-orbit data-options="bullets:false;timer:false;navigation_arrows:false;">
@@ -223,9 +226,15 @@
 				<section>
 			    	<p class="title" data-section-title><a href="#">Events</a></p>
 			    	<div class="content" data-section-content>
-						<p><b>July 4, 2013</b></p>
-						<p><a href="#">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</a></p>
-						<p><a class="button secondary" href="#">See All Events</a></p>
+			    		<ul class="news_events">
+				    		<li class="row">
+				    			<time class="columns large-4" datetime="2013-07-31">
+				    				July 31, 2013
+				    			</time>
+				    				<a href="#" class="columns large-8">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</a>
+				    		</li>
+				    	</ul>
+			    		<p><a class="button secondary medium radius" href="#">See All Events</a></p>
 			    	</div>
 			  	</section>
 			</div>						
