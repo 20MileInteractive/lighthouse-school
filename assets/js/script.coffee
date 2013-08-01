@@ -4,17 +4,17 @@ $ ->
 
 	if $('#home-bottom')
 
-		turtleCompensate = 0  # Tim, offset +/- goes here
-		turtle = $('#home-bottom')
-		turtleTop = turtle.offset().top
-		turtleHeight = turtle.height()
-		turtleScrolling = turtleTop # + turtleHeight - turtleCompensate
+		win = $(window)
+		el  = $('#home-bottom')
 
 		animateTurtle = ()->
-			console.log $(window).scrollTop()
-			if $(window).scrollTop() > turtleScrolling
-				turtle.addClass("animate")
+
+			winPos = win.scrollTop() + win.height()
+			elPos = el.offset().top + el.height()
+			console.log elPos
+			if winPos > elPos
+				el.addClass("animate")
 			else
-				turtle.removeClass("animate")
+				el.removeClass("animate")
 
 		$(window).scroll animateTurtle
