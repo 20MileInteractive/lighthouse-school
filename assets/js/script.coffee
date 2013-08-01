@@ -8,10 +8,10 @@ $ ->
 		turtle = $('#home-bottom')
 		turtleTop = turtle.offset().top
 		turtleHeight = turtle.height()
-		turtleScrolling = turtleTop + turtleHeight - turtleCompensate
+		turtleScrolling = turtleTop # + turtleHeight - turtleCompensate
 
 		animateTurtle = ()->
-
+			console.log $(window).scrollTop()
 			if $(window).scrollTop() > turtleScrolling
 				turtle.addClass("animate")
 			else

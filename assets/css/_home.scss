@@ -23,10 +23,30 @@
 }
 
 #home-bottom {
-	background: url(../img/turtle.jpg) no-repeat -10% 90% #f7f6e7;
+	background: #f7f6e7;
 	padding-bottom: 40px;
 	padding-top: .5em;
+	position: relative;
 }
+
+
+#turtle {
+	position: absolute;
+	top: 10%; left: -10%;
+	width: 486px; height: 388px;
+	transition: top 200ms ease-in, left 200ms ease-in;
+}
+
+#home-bottom.animate #turtle {
+	top: 60%; left: 30%;	
+}
+
+#home-boxes {
+	position: relative;
+	z-index: 500;
+}
+
+
 
 #facebook{
 	margin-top: 43px;
