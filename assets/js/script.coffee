@@ -11,7 +11,6 @@ $ ->
 
 			winPos = win.scrollTop() + win.height()
 			elPos = el.offset().top + el.height()
-			console.log elPos
 			if winPos > elPos
 				el.addClass("animate")
 			else
