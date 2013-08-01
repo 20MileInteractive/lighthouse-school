@@ -15,7 +15,7 @@ header {
 	// padding: 0 !important;
 	display: block;
 	margin: 4px auto 0;
-	width: 248px;
+	width: 266px;
 }
 
 #top-links {
@@ -54,9 +54,9 @@ header {
 		a {display: block; height: 25px; text-align: center; width: 25px; float: left;}
 	}
 
-	#twitter-link {background: #4DADC8; padding-top: 6px;}
+	#twitter-link {background: #4DADC8; padding-top: 1px;}
 		#twitter-link:hover {background: darken(#4DADC8,10%);}
-	#facebook-link {background: #3393AF; padding-top: 4px;}
+	#facebook-link {background: #3393AF; padding-top: 1px;}
 		#facebook-link:hover {background: darken(#3393AF, 10%);}
 
 }
@@ -83,7 +83,7 @@ nav.top-bar { //these are default styles
 		background: none;
 		margin-bottom: 0;
 		float: right;
-		margin-top: -29px;
+		margin-top: -42px;
 		section ul, section ul a {
 			background: none !important;
 			color: #115467;
