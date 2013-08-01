@@ -21,6 +21,7 @@
 	background: url(../img/home-bottom-bg.png) center top repeat-x #F7F6E7;
 	height: 30px;
 }
+
 #home-bottom {
 	background: url(../img/butterflies.jpg) no-repeat left bottom #f7f6e7;
 	padding-bottom: 40px;
@@ -44,9 +45,9 @@
 
 
 @media only screen and (min-width: 740px) {
-.home-lead p.lead {
-	background: url(../img/yarn2.jpg) no-repeat right -60px;
-	padding-right: 400px;
-	min-height: 250px;
-}
+	.home-lead p.lead {
+		background: url(../img/yarn2.jpg) no-repeat right -60px;
+		padding-right: 400px;
+		min-height: 250px;
+	}
 }
