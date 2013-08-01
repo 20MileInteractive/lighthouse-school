@@ -34,11 +34,15 @@
 	position: absolute;
 	top: 10%; left: -10%;
 	width: 486px; height: 388px;
-	transition: top 200ms ease-in, left 200ms ease-in;
+	transition: all 400ms ease-in;
+	transform:rotate(0deg);
 }
 
 #home-bottom.animate #turtle {
-	top: 60%; left: 30%;	
+	top: 20%; left: 20%;
+	transform:rotate(7deg);
+	-ms-transform:rotate(7deg); /* IE 9 */
+	-webkit-transform:rotate(7deg); /* Safari and Chrome */
 }
 
 #home-boxes {
