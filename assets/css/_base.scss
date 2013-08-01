@@ -93,7 +93,10 @@ ul, ol {margin-left: 1em;}
 .section-container.tabs section .title a, 
 .section-container.tabs .section .title a {font-size: inherit; padding: .5em;}
 
-.section-container.tabs section.active .title, .section-container.tabs .section.active .title {
+.section-container.tabs section.active .title, 
+.section-container.tabs .section.active .title,
+.section-container.tabs section.active .content, 
+.section-container.tabs .section.active .content {
 	background-color: #EEECD9;
 }
 
@@ -146,16 +149,6 @@ ul, ol {margin-left: 1em;}
 	}
 }
 
-.section-container.tabs .button {background: #fff;}
-// .section-container.tabs .button:hover {background: lighten($pale-blue, 10%);}
-
-// @media #{$topbar-media-query} {
-// .main_content {
-// 	padding: 0 250px 0 160px;
-// 	background-position: right 100px;
-// 	.page_title, section {
-// 		margin-left: -80px;
-// 		margin-right: -140px;
-// 	}
-// }
-// }
+.section-container.tabs .button { 
+	background: #fff;
+}
