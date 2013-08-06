@@ -1,10 +1,15 @@
 $(document).ready(function(){
 
+	$(".accordion section").removeClass("active");
+
 	$("a.reveal-link").click(function(event){
 		event.preventDefault();
-		$(this).parent().prev("section").show("slow");
-		$(this).hide();
-		$(this).parent().next().children("a").delay(800).show(400);
+		$(this).parent().prev("section").toggle("slow");
+		if ($(this).text() == "Read More") {
+			$(this).text("Show Less")
+		} else {
+			$(this).text("Read More")
+		};
 		});
 
 
