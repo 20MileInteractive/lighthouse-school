@@ -52,7 +52,7 @@ ul, ol {margin-left: 1em;}
 
 	p.lead { 
 		color: $lighthouse-blue;
-		em {color: $navy; font-style: normal;}
+		em {color: darken($lighthouse-blue, 15%); font-style: normal;}
 	}
 
 	.photo-right {float: right; margin-right: -4em;}

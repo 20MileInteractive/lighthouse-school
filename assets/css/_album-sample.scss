@@ -1,0 +1,9 @@
+.clearing-thumbs {
+
+	margin-bottom: 3em;
+
+	li {margin-bottom: .5em;}
+	 li a {
+		@include thumb;
+	}	
+}

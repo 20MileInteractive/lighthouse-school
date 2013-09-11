@@ -16,7 +16,7 @@
 // We use these to control various global styles
 // $body-bg: #fff;
    $body-font-color: #413e37;
-   $body-font-family: "MrsEavesRomanLiningRegular", Georgia, serif;
+   $body-font-family: Muli, "Helvetica", Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -920,15 +920,15 @@
 //
 // Tooltip Variables
 //
-// $has-tip-border-bottom: dotted 1px #ccc;
+   $has-tip-border-bottom: none;
 // $has-tip-font-weight: bold;
 // $has-tip-font-color: #333;
-// $has-tip-border-bottom-hover: dotted 1px darken($primary-color, 20%);
-// $has-tip-font-color-hover: $primary-color;
+   $has-tip-border-bottom-hover: none;
+   $has-tip-font-color-hover: $body-font-color;
 // $has-tip-cursor-type: help;
 
 // $tooltip-padding: emCalc(8px);
-// $tooltip-bg: #000;
+   $tooltip-bg: $body-font-color;
 // $tooltip-font-size: emCalc(15px);
 // $tooltip-font-weight: bold;
 // $tooltip-font-color: #fff;

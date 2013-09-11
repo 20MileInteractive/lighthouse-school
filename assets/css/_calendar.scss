@@ -1,0 +1,66 @@
+.important-dates {
+	overflow: hidden;
+	
+
+	ul {margin: 0 0 2em 0; }
+
+	li {
+		margin-bottom: 1em; 
+		clear: both;
+		border-bottom: 1px solid $light-tan;
+		padding: .5em;
+		overflow: hidden;
+
+		time {
+		@include radius;
+		color: lighten($body-font-color, 25%);
+		display: block;
+		float: left;
+		width: 25%;
+		background: $light-tan;
+		padding: .25em;
+		font-size: emCalc(14px);
+		margin-right: 1em;
+		padding: .25em .5em;
+		 }
+
+		.event-name {
+			font-size: 1.25em;
+			width: 60%;
+			float: left;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+}
+
+.mini-calendar {
+	width: 100%;
+	td, th {text-align: center;}
+	td {font-family: $body-font-family; font-size: 1em;}
+}
+
+.row.calendar-key {
+	margin-bottom: 2em;
+
+	h4 {color: darken($light-tan,70%);}
+	li {
+		min-height: 3em;
+		font-size: .875em; 
+		line-height: 2em;
+		text-align: center;
+		padding: .5em;
+		color: #fff;
+	}
+
+}
+
+	.break-holiday h3,
+	.event h3,
+	.half-day h3,
+	.class-resume h3 {color: #fff;}
+
+	.break-holiday {background-color: #62A889;}
+	.event {background-color: #F3B61A;}
+	.half-day {background-color: #80CC63;}
+	.classes-resume {background-color: #EE7735;}
