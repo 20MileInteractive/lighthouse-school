@@ -1,81 +1,44 @@
-// This is used for layout directives for style-guide.html
 
-.style-guide section {
-	padding: 1em 0;}
+.style-guide {
+	h2 {border-bottom: 1px solid $body-font-color;}
+	h3 {color: $red-orange;}
+	.sample-heading {font-family: $header-font-family; font-size: emCalc(32px);}
+	.note {font-size: emCalc(13px);}
+	// .content.guide {padding: 3rem !important;}
 
-.style-title {
-	padding: 1em;
-	font-size: 1em;
-	background: $secondary-color;
-	margin-bottom: 2em;
+	.guide-colors {
+
+		.swatch-wrap {
+			border: solid 1px #ccc;
+			padding: 5px;
+
+			figcaption {
+			color: #959595;
+			font-size: 12px;
+			font-weight: bold;
+			line-height: 1.5em;
+			padding: 5px 0 0;
+			}
+		}
+
+		.swatch-holder {
+			// width: 88px;
+			height: 88px;
+			background: #e1e1e1;
+			border: solid 1px #e1e1e1;
+		}
+		// figure {
+		// 	height: 200px; width: 200px;
+		// 	background: #fff;
+		// 	padding: 1rem 0;
+		// 	display: block;
+		// 	border: 1px solid lighten($body-font-color, 50%);
+		// }
+		// .color {width: 150px; height: 150px; margin: 0 auto;}
+		// .color-one {background: $light-tan;}
+		// figcaption {text-align: center; margin: 1rem 0;}
+	}
+
+	.instructions, .instructions li {color: lighten($body-font-color, 15%); font-size: 1em;}
+
 }
-
-.style-subtitle {
-	font-size: 1em;
-	color: $neutral-two;
-	/*text-align: right;*/
-	margin-bottom: 1em;
-}
-
-.style-info {	
-	background: #f1f1f1; 
-	overflow: hidden; 
-	display: block; 
-	padding: .5em;
-	margin-bottom: 2em;
-	color: #333; 
-	font-family: Arial;}
-.style-info dt, .style-info dd {
-	float: left; 
-	 padding: 0;
-	display: block;
-	margin: 0;}
-.style-info dt {margin-right: .5em; font-weight: normal;}
-.style-info dd {margin-right: 1.5em;}
-
-div.typography {max-width: 480px;}
-
-.color-styles ul.colors {
-	overflow: hidden;
-	list-style-type: none;
-}
-
-.color-styles ul.colors li {
-	display: block;
-	padding: 1em;
-	line-height: 1.5em;
-	color: #fff;
-	list-style-type: none;
-	font-family: $header-font-family;
-	text-align: center;
-}
-
-.color-styles ul.accents li, .color-styles ul.actions li {
-	padding: 1em;
-	width: 3em;
-	float: left;}
-
-.neutral-one {background: $neutral-one;}
-.neutral-two {background: $neutral-two;}
-
-.accent-one {background: $accent-one;}
-.accent-two {background: $accent-two;}
-.accent-three {background: $accent-three;}
-
-.action-one {background: $primary-color;}
-
-
-.icons img {margin-right: 2em;}
-
-figure {background: #F4EFEA; margin-bottom: 1em; width: 576px;}
-figcaption {
-	font-family: open-sans; font-size: .875em;
-	padding: .5em;
-	color: #493B2F;}
-
-
-footer {
-	margin: 5em 0 10em;
-}
-
-footer p {font-size: emCalc(11px); text-align: center; font-family: $header-font-family;}
